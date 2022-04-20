@@ -1,0 +1,43 @@
+.container {
+  width: 350px;
+  height: 300px;
+  border: 1px solid black;
+  position: relative;
+}
+
+.block-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+}
+
+.user-board {
+  width: 120px;
+  height: 20px;
+  border: 1px solid black;
+  background-color: blueviolet;
+  position: absolute;
+  left: 120px;
+  bottom: 10px;
+}
+
+.ball {
+  width: 30px;
+  height: 30px;
+  border-radius: 30px;
+  background-color: red;
+  position: absolute;
+  left: 300px;
+  bottom: 32px;
+}
+
+.block {
+  width: 100px;
+  height: 50px;
+  border: 1px solid black;
+  background-color: rgb(16, 202, 140);
+}
+
+.hide-block {
+  visibility: hidden;
+}
